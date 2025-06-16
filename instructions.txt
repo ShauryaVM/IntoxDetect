@@ -1,3 +1,26 @@
 IMPORTANT: All results are subject to variability when code is run due to randomization of CNNs.
 
-All Jupyter notebooks show metrics of results. They can be run by uploading them into Colab. The GPU option of T4 was utilized for this research for faster results.
+OVERVIEW
+This project uses three computer vision datasets for training and testing:
+
+1. **RoboFlow Face Dataset**  
+   - Total images: 2,468  
+   - Categories: "drunk" and "sober" face images
+
+2. **Kaggle Eye Direction Dataset**  
+   - Total images: 14,500  
+   - Categories: "forward", "left", "right", "closed"
+
+USAGE INSTRUCTIONS
+
+1. All Jupyter notebooks provided in this repository include key performance metrics such as accuracy, loss curves, and confusion matrices.
+2. To reproduce the results:
+   - Open each `.ipynb` file in **Google Colab**
+   - Make sure to **enable GPU** runtime (T4 GPU was used during development for performance)
+     - *Runtime > Change runtime type > Select "GPU"*
+3. Upload any necessary datasets if not already pre-loaded. Follow dataset path specifications in each notebook if needed.
+
+NOTES
+
+- Training results may slightly differ due to randomized weight initialization and data shuffling.
+- For best results, ensure consistent hardware (GPU) and seed settings where applicable.
