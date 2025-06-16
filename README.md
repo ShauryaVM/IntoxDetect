@@ -4,7 +4,7 @@
 
 ## Overview
 
-IntoxDetect is a research project that leverages computer vision and deep learning to detect signs of intoxication through facial analysis. The system employs multiple CNN architectures to analyze both facial features and pupil dilation patterns, providing a comprehensive approach to intoxication detection.
+IntoxDetect is a research project that leverages computer vision and deep learning to detect signs of intoxication through facial analysis. The system employs multiple CNN architectures to analyze both facial features and pupil dilation patterns, providing a comprehensive approach to intoxication detection. Full paper published in IEEE Xplore: https://ieeexplore.ieee.org/document/10900115
 
 ## Project Structure
 
